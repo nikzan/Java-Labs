@@ -22,8 +22,7 @@ public class Main {
     }
 
     public void run() {
-        System.out.println("Лабораторная работа №5: Шаблоны, Коллекции, Стримы");
-        System.out.println("===================================================");
+        System.out.println("Лабораторная работа #5");
 
         while (true) {
             System.out.println("\nВыберите задание:");

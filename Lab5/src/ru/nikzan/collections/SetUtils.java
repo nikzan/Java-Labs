@@ -14,7 +14,7 @@ public class SetUtils {
     ));
 
     public static void printVoicedConsonants(String filePath) {
-        Set<Character> foundConsonants = new TreeSet<>(); // TreeSet для сортировки
+        Set<Character> foundConsonants = new TreeSet<>(); // TreeSet для сортировки (к/ч д)
 
         try (Scanner scanner = new Scanner(new File(filePath))) {
             while (scanner.hasNext()) {
